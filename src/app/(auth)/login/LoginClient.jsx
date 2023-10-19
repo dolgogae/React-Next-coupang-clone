@@ -54,7 +54,7 @@ const LoginClient = () => {
     })
     .catch((error)=> {
       toast.error(error.messsage);
-    });
+    }); 
   }
 
   return (
